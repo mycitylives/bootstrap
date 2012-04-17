@@ -2273,6 +2273,7 @@ input[type="submit"].btn.btn-mini {
   position: relative;
   *zoom: 1;
   *margin-left: .3em;
+  text-align: center;
 }
 .btn-group:before,
 .btn-group:after {
@@ -2301,11 +2302,11 @@ input[type="submit"].btn.btn-mini {
 }
 .btn-group .btn {
   position: relative;
-  float: left;
-  margin-left: -1px;
+  margin-left: -5px;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0;
+  display: inline-block;
 }
 .btn-group .btn:first-child {
   margin-left: 0;
